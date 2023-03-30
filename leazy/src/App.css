@@ -1,0 +1,62 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  background: rgb(119, 135, 176);
+  height: 1500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  background: rgb(73, 87, 122);
+  height: 550px;
+}
+
+.active {
+  background: rgb(219, 174, 13);
+  /* height: 350px; */
+}
+
+h2 {
+  color: white;
+}
+
+.photos {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.photo-card {
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.photo-card-skeleton {
+  border-radius: 20px;
+  max-width: 100%;
+  height: 500px;
+  margin: 20px;
+  display: block;
+  background-color: rgb(173, 173, 173);
+}
+
+.photo-card > img {
+  max-width: 100%;
+  border-radius: 20px;
+  height: 500px;
+  margin: 20px;
+}
